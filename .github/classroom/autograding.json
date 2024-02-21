@@ -1,0 +1,234 @@
+{
+  "tests": [
+    {
+      "name": "AutoTest Setup",
+      "setup": "git clone https://github.com/TeacherTalley/Stack_AutoTest.git",
+      "run": "cd Stack_AutoTest && ./AutoTest_setup.sh",
+      "input": null,
+      "output": null,
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Coding Style",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_Style.sh",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Main Output",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_OutputTest.sh",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Stack Empty",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.Empty",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Stack Size",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.Size",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Stack Top",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.Top",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Stack TopEmptyStack",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.TopEmptyStack",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Stack Push",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.Push",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 11
+    },
+    {
+      "name": "Stack Pop",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.Pop",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Stack PopEmptyStack",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.PopEmptyStack",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Stack ToString",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.ToString",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Stack Print",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.Print",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Stack CopyConstructor",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh StackTest.CopyConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Queue Empty",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.Empty",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Queue Size",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.Size",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Queue Front",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.Front",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Queue FrontEmptyQueue",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.FrontEmptyQueue",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Queue Enqueue",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.Enqueue",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 11
+    },
+    {
+      "name": "Queue Dequeue",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.Dequeue",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Queue DequeuEmptyStack",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.DequeueEmptyStack",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Queue ToString",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.ToString",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Queue Print",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.Print",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Queue CopyConstructor",
+      "setup": "",
+      "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.CopyConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

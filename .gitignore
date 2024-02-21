@@ -1,0 +1,22 @@
+/.DS_Store
+
+# Visual Studio Code (Windows)
+*.exe
+*.ilk
+*.obj
+*.pdb
+main.dSYM
+
+# VS Code
+.vscode
+
+# Build files
+/build
+*AutoTest*
+main
+tests
+
+# Visual Studio 2022
+*.sln
+*.vcxproj
+x64
