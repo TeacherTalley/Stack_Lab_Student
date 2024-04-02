@@ -42,6 +42,16 @@ public:
     Stack() {}
 
     /**
+     * @brief Destructor
+     * Frees all stack elements
+     */
+    ~Stack()
+    {
+        data.clear();
+    }
+
+
+    /**
      * @brief Construct a new Stack object as a copy of existing Stack
      * @param other The Stack to copy
      */

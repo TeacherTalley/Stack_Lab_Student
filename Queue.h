@@ -37,6 +37,14 @@ public:
     Queue() {}
 
     /**
+     * @brief Destructor
+     * Clears all elements in the queue.
+     */
+    ~Queue()
+    {
+        elements.clear();
+    }
+    /**
      * @brief Copy constructor
      * @param other The other queue to copy from
      */
