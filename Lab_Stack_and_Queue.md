@@ -46,31 +46,33 @@ Your output can vary, so feel free to experiment.
 ##### Rubric
 
 | Name                      | Description                                                         | Points |
-|---------------------------|---------------------------------------------------------------------|-------:|
+| ------------------------- | ------------------------------------------------------------------- | ------ |
 | AutoTest Setup            | Install test code, copy student source, build student and test code | 0      |
-| Main Output               | Run student main and compare output to test                         | 0      |
-| Coding Style              | Run cpplint on student code                                         | 6      |
-| Stack Empty               |                                                                    | 1      |
-| Stack Size                |                                                                    | 1      |
-| Stack Top                 |                                                                    | 8      |
-| Stack Top Empty Stack     |                                                                    | 8      |
-| Stack Push                |                                                                   | 11     |
-| Stack Pop                 |                                                                   | 10     |
-| Stack Pop Empty Stack     |                                                                    | 5      |
-| Stack ToString            |                                                                    | 1      |
-| Stack Print               |                                                                    | 1      |
-| Stack Copy Constructor    |                                                                    | 1      |
-| Queue Empty               |                                                                    | 1      |
-| Queue Size                |                                                                    | 1      |
-| Queue Front               |                                                                    | 8      |
-| Queue Front Empty Queue   |                                                                    | 8      |
-| Queue Enqueue             |                                                                   | 11     |
-| Queue Dequeue             |                                                                   | 10     |
-| Queue Dequeue Empty Queue |                                                                    | 5      |
-| Queue ToString            |                                                                    | 1      |
-| Queue Print               |                                                                    | 1      |
-| Queue Copy Constructor    |                                                                    | 1      |
-| Total Points              |                                                                  | 100    |
+| Main Output               | Run student main and compare output to test                         | 10     |
+| Coding Style              | Run cpplint on student code                                         | 4      |
+| Stack Empty               |                                                                     | 1      |
+| Stack Size                |                                                                     | 1      |
+| Stack Top                 |                                                                     | 5      |
+| Stack Top Empty Stack     |                                                                     | 5      |
+| Stack Push                |                                                                     | 10     |
+| Stack Pop                 |                                                                     | 10     |
+| Stack Pop Empty Stack     |                                                                     | 5      |
+| Stack ToString            |                                                                     | 1      |
+| Stack Print               |                                                                     | 1      |
+| Stack Copy Constructor    |                                                                     | 1      |
+| Stack SaveRestore         |                                                                     | 3      |
+| Queue Empty               |                                                                     | 1      |
+| Queue Size                |                                                                     | 1      |
+| Queue Front               |                                                                     | 5      |
+| Queue Front Empty Queue   |                                                                     | 5      |
+| Queue Enqueue             |                                                                     | 10     |
+| Queue Dequeue             |                                                                     | 10     |
+| Queue Dequeue Empty Queue | 5                                                                   |
+| Queue ToString            |                                                                     | 1      |
+| Queue Print               |                                                                     | 1      |
+| Queue Copy Constructor    |                                                                     | 1      |
+| Queue SaveRestore         |                                                                     | 3      |
+| Total Points              |                                                                     | 100    |
 #### Due Dates and Honor
 The due date is specified on Blackboard. 
 
