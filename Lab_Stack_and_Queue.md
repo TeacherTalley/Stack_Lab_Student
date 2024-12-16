@@ -42,6 +42,7 @@ Implement the following in your main driver **`main.cpp`**.
 
 #### Final output
 Your output can vary, so feel free to experiment.
+Verify that you stack is printing in LIFO order and your queue is printing in FIFO order.
 
 ##### Rubric
 
