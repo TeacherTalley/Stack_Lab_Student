@@ -13,22 +13,22 @@
     {
       "name": "Coding Style",
       "setup": "",
-      "run": "./Stack_AutoTest/AutoTest_Style.sh",
+      "run": "./Stack_AutoTest/AutoTest_Style.sh Stack_AutoTest main.cpp Stack.h Queue.h",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 6
+      "points": 5
     },
     {
       "name": "Main Output",
       "setup": "",
-      "run": "./Stack_AutoTest/AutoTest_OutputTest.sh",
+      "run": "./Stack_AutoTest/AutoTest_OutputTest.sh Stack_AutoTest/build",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 0
+      "points": 5
     },
     {
       "name": "Stack Empty",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 8
+      "points": 7
     },
     {
       "name": "Stack TopEmptyStack",
@@ -68,7 +68,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 8
+      "points": 7
     },
     {
       "name": "Stack Push",
@@ -158,7 +158,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 8
+      "points": 7
     },
     {
       "name": "Queue FrontEmptyQueue",
@@ -168,7 +168,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 8
+      "points": 7
     },
     {
       "name": "Queue Enqueue",
@@ -191,7 +191,7 @@
       "points": 10
     },
     {
-      "name": "Queue DequeuEmptyStack",
+      "name": "Queue DequeueEmptyStack",
       "setup": "",
       "run": "./Stack_AutoTest/AutoTest_gtest.sh QueueTest.DequeueEmptyStack",
       "input": "",
