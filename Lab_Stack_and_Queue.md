@@ -10,6 +10,9 @@ You will receive a partial implementation of a Stack and Queue in C++.  Your mis
 #### Lab Requirement
 *Verify that you are using the ISO std 20+ compiler. See Blackboard for more information.*
 
+#### AI policy
+Generative artificial intelligence (AI) programs, such as ChatGPT, may not be used for any work or assignments required in this course. The use of generative AI programs undermines the programming requirements and critical thinking skills that are vital to achieving our learning outcomes. Submission of partial or complete work from generative AI programs is not permitted and will be treated as plagiarism as defined in UCA’s Academic Integrity Policy and handled in accordance with the procedure outlined therein.
+
 #### Lab Tasks
 Review the code provided.  Notice that the Stack and Queue use an underlying data type of `std::list`, rather than using `Nodes` directly.  This code will not compile and run because you need to implement the required methods described below.
 
